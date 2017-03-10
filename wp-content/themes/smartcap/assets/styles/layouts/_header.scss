@@ -1,0 +1,27 @@
+.banner {
+  height:100px;
+  width:100%;
+  position: fixed;
+  .container {
+    height:100%;
+    .row {
+      display: flex;
+      align-items:center;
+      height:100%;
+      .company-logo {
+        font-size: 2rem;
+      }
+      .nav-primary {
+        ul {
+          display: flex;
+          justify-content: flex-end;
+          flex-direction: row;
+          li {
+            margin-left: 3rem;
+            list-style: none;
+          }
+        }
+      }
+    }
+  }
+}
